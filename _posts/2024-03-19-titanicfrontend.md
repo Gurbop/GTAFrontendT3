@@ -4,7 +4,7 @@ layout: post
 permalink: /titanic
 description: Titanic simulation
 type: tangibles
-courses: { compsci: { week: 26 } }
+courses: { compsci: { week: 27 } }
 ---
 
 <style>
