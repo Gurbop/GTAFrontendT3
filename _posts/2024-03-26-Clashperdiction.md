@@ -55,7 +55,7 @@ courses: { compsci: { week: 28 } }
                 op_deck_elixir: opDeckElixir
             };
             // Adjust the URL to your actual backend endpoint
-        fetch('/api/users/ML', {
+        fetch('http://127.0.0.1:8086/api/users/ML', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -74,8 +74,8 @@ courses: { compsci: { week: 28 } }
         })
         .catch((error) => {
             console.error('Error:', error);
+            });
         });
-
     </script>
 </body>
 </html>
